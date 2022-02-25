@@ -144,4 +144,4 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 
 # Conclusions
-I found it usefull to know a vast amount of AWS capabilities, for sure some of them I have never used them before and now I know they exist in case I need to research them further in orther to use them.
+I found it usefull to overbiew a vast amount of AWS services and features. For sure some of them I have never used and now I know they exist and more or less what value they add, in case I need to research further to check if they are a viable option for the project in hands.
