@@ -39,9 +39,12 @@ For sure in only 65 questions not every service will show up, but AWS say in the
   - AWS WorkSpaces is a fully managed desktop virtualization service that enables you to acces data or applications remotly. Great to offer scalability or better performance machines to your organization colleagues. It Facilitate remote wokr or onboard contingent workers or even create powerfull AutoCad machines that can be accessed from cheap low speck laptops.
 
 ## Containers:
-- Amazon Elastic Container Service (Amazon ECS)
-- Amazon Elastic Kubernetes Service (Amazon EKS)
-- AWS Fargate
+- **Amazon Elastic Container Service (Amazon ECS)**
+  - AWS ECS is a fully managed container orchestration service built by Amazon. It makes it easy to deploy, manage and scale containerized applications. It supports Docker containers and you can run your containers on EC2 machines, Fargate (see below) or on-premises with (ECS Anywhere installed on your own machines). You just need to create a Cluster, Tasks-defenitions and run them either as Tasks (short lived / batch containers) or as Services (24/7 workloads like webservers). You can chose x86 or arm64 processors and linux or windows runtimes.
+- **Amazon Elastic Kubernetes Service (Amazon EKS)**
+  - AWS EKS is a managed and certified Kubernetes service, allowing you to run Kubernetes on AWS or on-premises with some abstraction from the clusters configuration and host machine maitnance, letting you focuse on conquering the world with your fleed of Pods.
+- **AWS Fargate**
+  - Amazon Fargate is a serverless pay-as-you-go compute engine that lets you focouse in building containers and not in running or manage servers that will run them. It is compatible with both ECS and EKS and amd64 (Intel/AMD) or arm64 (AWS Graviton). You can run all your containers on Fargate or mix and match between you EC2 / on-premise infraestructure, but user Fargate for fast scaling, or for batch process that requires a huge machine for a small amount of time. You pay per minute of computation and you chose the vCPU and RAM size, AWS will take care of the fleet of machines to give you that computation power to run you container without caring of the Host machine or OS.
 
 ## Database:
 - Amazon Aurora
