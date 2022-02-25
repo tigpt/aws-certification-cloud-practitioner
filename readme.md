@@ -60,10 +60,15 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Developer Tools:
 - **AWS CodeBuild**
+  - Amazon Codebuild lets you create a CI/CD system. It is fully managed service that compiles source code, run tests and produce software packages ready to be deployed.
 - **AWS CodeCommit**
+  - AWS CodeCommit is a secure source control service to host private Git Repositories.
 - **AWS CodeDeploy**
+  - AWS CodeDeploy complements CodeBuild allowing you to automate software deployments to services like EC2, Fargate, Lambda or on-premises.
 - **AWS CodePipeline**
+  - AWS CodePipeline is a managed service that makes it easy to model, visualize and automate continuous delivery by defining workflows.
 - **AWS CodeStar**
+  - AWS CodeStart agregate multiple of other AWS services, allowing you to create project templates and create source repos, build and deployment pipelines, virtual servers or serverless resources. It basicly helps you create build environments from templates like Go, PHP Laravel or other from dozens to chose.
 
 ## Customer Engagement:
 - **Amazon Connect**
