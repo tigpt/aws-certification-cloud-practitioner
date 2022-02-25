@@ -16,6 +16,7 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 - **Amazon Kinesis**
   - AWS Kinesis is a serverless service that allows you to collect, process, analyze video or data streams in real time. For example you can stream video from a security camera and do face detection or machine learning. You can also stream stock market data and act on it with real-time buy and sell actions. Have in mind that there could be a delay in data up to 1 second.
 - **Amazon QuickSight**
+  - AWS QuickSight is a serverless Business Inteligence service, it allows everyone in your organization to understand your data by asking questions in  natural language, explor dashboards and find patterns and outliers, using machine learning.
 
 ## Application Integration:
 - Amazon Simple Notification Service (Amazon SNS)
