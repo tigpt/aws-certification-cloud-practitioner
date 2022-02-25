@@ -47,70 +47,73 @@ For sure in only 65 questions not every service will show up, but AWS say in the
   - Amazon Fargate is a serverless pay-as-you-go compute engine that lets you focouse in building containers and not in running or manage servers that will run them. It is compatible with both ECS and EKS and amd64 (Intel/AMD) or arm64 (AWS Graviton). You can run all your containers on Fargate or mix and match between you EC2 / on-premise infraestructure, but user Fargate for fast scaling, or for batch process that requires a huge machine for a small amount of time. You pay per minute of computation and you chose the vCPU and RAM size, AWS will take care of the fleet of machines to give you that computation power to run you container without caring of the Host machine or OS.
 
 ## Database:
-- Amazon Aurora
+- **Amazon Aurora**
   - AWS Aurora is a fully managed MySQL-compatible (or PostgresSQL) relational database, on top of RDS, with high speed and availability (sometimes 5x faster then traditional MySQL). You can chose provisioned Aurora that manage the srevers instances sizes, or serverless (with a min and max resources) that can be scaled down to zero, allowing you to not pay 24/7 for that backend app that is only used once an month. The first query (cold start) can take a few seconds but then it will adapt to your needs.
-- Amazon DynamoDB
+- **Amazon DynamoDB**
   - AWS DynamoDB is a serverless NoSQL database, in reality it is a key-valued or wide column database with single digit milisecond response that scales to the moon. Some say it is a the KingDB because it's truelly created to scale to Terabytes of data, but each record can only store a max of 400kb. There are some limitations on the way you create it schema and how you query data, but when you unleash it's true power you understand why it exits.
-- Amazon ElastiCache
-- Amazon RDS
-- Amazon Redshift
+- **Amazon ElastiCache**
+  - AWS ElastiCache offeres managed caching service for Redis and Memcached, allowing you to unlock microseconds latency and scale with in-memory caching without focusing on servers. Acelerate applications performance, reduce backend database load.
+- **Amazon RDS**
+  - AWS RDS allows you easly setup and operate relational database in the cloud. Run Databases without focusing on adminstration tasks like hardware provisioning, database setup, patching and backups. It supports Aurora, MySQL, MariaDB, PostgreSQL, Oracle and Microsoft SQL Server.
+- **Amazon Redshift**
+  - AWS Redshift is a fully managed data warehouse service at pentabyte-scale. It uses SQL to analyze structured and semi-structured data across data warehouses, operational databases and data lakes. It leverate AWS custom designed hardware and machine learning to deliver the best performance at any scale.
 
 ## Developer Tools:
-- AWS CodeBuild
-- AWS CodeCommit
-- AWS CodeDeploy
-- AWS CodePipeline
-- AWS CodeStar
+- **AWS CodeBuild**
+- **AWS CodeCommit**
+- **AWS CodeDeploy**
+- **AWS CodePipeline**
+- **AWS CodeStar**
 
 ## Customer Engagement:
-- Amazon Connect
+- **Amazon Connect**
 
 ## Management, Monitoring, and Governance:
-- AWS Auto Scaling
-- AWS Budgets
-- AWS CloudFormation
-- AWS CloudTrail
-- Amazon CloudWatch
-- AWS Config
-- AWS Cost and Usage Report
-- Amazon EventBridge (Amazon CloudWatch Events)
-- AWS License Manager
-- AWS Managed Services
-- AWS Organizations
-- AWS Secrets Manager
-- AWS Systems Manager
-- AWS Systems Manager Parameter Store
-- AWS Trusted Advisor
+- **AWS Auto Scaling**
+- **AWS Budgets**
+- **AWS CloudFormation**
+- **AWS CloudTrail**
+- **Amazon CloudWatch**
+- **AWS Config**
+- **AWS Cost and Usage Report**
+- **Amazon EventBridge (Amazon CloudWatch Events)**
+- **AWS License Manager**
+- **AWS Managed Services**
+- **AWS Organizations**
+- **AWS Secrets Manager**
+- **AWS Systems Manager**
+- **AWS Systems Manager Parameter Store**
+- **AWS Trusted Advisor**
 
 ## Networking and Content Delivery:
-- Amazon API Gateway
-- Amazon CloudFront
-- AWS Direct Connect
-- Amazon Route 53
-- Amazon VPC
+- **Amazon API Gateway**
+- **Amazon CloudFront**
+- **AWS Direct Connect**
+- **Amazon Route 53**
+- **Amazon VPC**
 
 ## Security, Identity, and Compliance:
-- AWS Artifact
-- AWS Certificate Manager (ACM)
-- AWS CloudHSM
-- Amazon Cognito
-- Amazon Detective
-- Amazon GuardDuty
-- AWS Identity and Access Management (IAM)
-- Amazon Inspector
-- AWS License Manager
-- Amazon Macie
-- AWS Shield
-- AWS WAF
+- **AWS Artifact**
+- **AWS Certificate Manager (ACM)**
+- **AWS CloudHSM**
+- **Amazon Cognito**
+- **Amazon Detective**
+- **Amazon GuardDuty**
+- **AWS Identity and Access Management (IAM)**
+- **Amazon Inspector**
+- **AWS License Manager**
+- **Amazon Macie**
+- **AWS Shield**
+- **AWS WAF**
 
 ## Storage:
-- AWS Backup
-- Amazon Elastic Block Store (Amazon EBS)
-- Amazon Elastic File System (Amazon EFS)
-- Amazon S3
-- Amazon S3 Glacier
-- AWS Snowball Edge
-- AWS Storage Gateway
+- **AWS Backup**
+- **Amazon Elastic Block Store (Amazon EBS)**
+- **Amazon Elastic File System (Amazon EFS)**
+- **Amazon S3**
+- **Amazon S3 Glacier**
+- **AWS Snowball Edge**
+- **AWS Storage Gateway**
 
 
 # Conclusions
