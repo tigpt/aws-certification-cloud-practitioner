@@ -128,12 +128,19 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Storage:
 - **AWS Backup**
+  - Centrally manage and automate backups. It supports services like EC2 instances, EBS volumes, S3, RDS, DynamoDB, Document DB, EFS and others.
 - **Amazon Elastic Block Store (Amazon EBS)**
+  - EBS is a easy-to-scale block-storage designed for EC2, it can be attached to a machine and easly scaled or moved to another machine.
 - **Amazon Elastic File System (Amazon EFS)**
+  - It's a cloud storage solution that elasticly grow or shrinks as you add or remove files. It can be attached to multiple EC2 instances or ECS containers at the same time, beeing an option to share files in real time between resources, or store data without worrieing about scalability. It mounts  and share data on instances across regions using inter-region VPC peering 🤯 beeing a good way to syncronize data for disaster recovery.
 - **Amazon S3**
+  - AWS Simple Storage Service (S3) allows you to store files and share them across multiple services or publicly on the web. It have many features and multiple flavores of pricing depending on the way files are replicated across AZs or the expected patern of access. It proudly have 11 nines or availabiltiy. 99,999999999%.
 - **Amazon S3 Glacier**
+  - A special flavor of S3, made specially for data archiving with low prices but great data precistence, it have multiple options of data retrival from minues to days. You pay a lower value for keeping data there, but theres a fee when you need to retrive data.
 - **AWS Snowball Edge**
+  - A Petabyte-scale small container let you fastly store and move data to AWS. When you have a lot of data to lift and shift to a database or S3, this can be a good option to move data fast as internet connections can be a bottle neck.
 - **AWS Storage Gateway**
+  - Its a set of hybrid cloud storage services, that provide on-premises access to virtually unlimited cloud storage. Files are stored on S3, but available locally with old protocoles like SFTP, FTP, NFS, SMB, iSCSI and others. It can have a local hardware that bridge the cloud storage with local cache, both for fast access of files on the cloud that are tipicaly accessed locally or for fast copy to a local place and then slowlly copy to the cloud over internet.
 
 
 # Conclusions
