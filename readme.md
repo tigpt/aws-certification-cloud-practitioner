@@ -72,6 +72,7 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Customer Engagement:
 - **Amazon Connect**
+  - It's a easy-to- use omnichannel cloud based contact center service. You can respond to phone calls or chat inquiries from end customers, and create automations with other AWS services like Lambda, voice to text (Amazon Transcribe) or text to voice (Amazon Polly) and many others.
 
 ## Management, Monitoring, and Governance:
 - **AWS Auto Scaling**
