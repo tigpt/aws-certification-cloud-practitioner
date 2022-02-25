@@ -48,7 +48,9 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Database:
 - Amazon Aurora
+  - AWS Aurora is a fully managed MySQL-compatible (or PostgresSQL) relational database, on top of RDS, with high speed and availability (sometimes 5x faster then traditional MySQL). You can chose provisioned Aurora that manage the srevers instances sizes, or serverless (with a min and max resources) that can be scaled down to zero, allowing you to not pay 24/7 for that backend app that is only used once an month. The first query (cold start) can take a few seconds but then it will adapt to your needs.
 - Amazon DynamoDB
+  - AWS DynamoDB is a serverless NoSQL database, in reality it is a key-valued or wide column database with single digit milisecond response that scales to the moon. Some say it is a the KingDB because it's truelly created to scale to Terabytes of data, but each record can only store a max of 400kb. There are some limitations on the way you create it schema and how you query data, but when you unleash it's true power you understand why it exits.
 - Amazon ElastiCache
 - Amazon RDS
 - Amazon Redshift
