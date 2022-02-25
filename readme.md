@@ -12,11 +12,11 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Analytics:
 - Amazon Athena
-
+  - A serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It support a wide varity of data formats like CSV, TSV, JSON, or Textfiles. You pay for read data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Ziped, you can just upload ziped vertion and query it while ziped, you will pay for 20Mb of read instead of 10Gb or read. Nothing to maintain, and super dupper fast, quering multy GB of data in seconds. Similar to Google BigQuery.
 - Amazon Kinesis
 - Amazon QuickSight
 
-##Application Integration:
+## Application Integration:
 - Amazon Simple Notification Service (Amazon SNS)
 - Amazon Simple Queue Service (Amazon SQS) Compute and Serverless:
 - AWS Batch
