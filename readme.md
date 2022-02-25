@@ -14,7 +14,7 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Analytics:
 - **Amazon Athena**
-  - AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It support a wide varity of data formats like CSV, TSV, JSON, or Textfiles. You pay for read data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Ziped, you can just upload ziped vertion and query it while ziped, you will pay for 20Mb of read instead of 10Gb or read. Nothing to maintain, and super dupper fast, quering muliple GB of data in seconds. Similar to Google BigQuery.
+  - AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It support a wide varity of data formats like CSV, TSV, JSON, or Textfiles. You pay for read data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Ziped, you can just upload ziped vertion and query it while ziped, you will pay for 20Mb of read instead of 10Gb or read. Nothing to maintain, and super dupper fast, quering muliple GB of data in seconds.
 - **Amazon Kinesis**
   - AWS Kinesis is a serverless service that allows you to collect, process, analyze video or data streams in real time. For example you can stream video from a security camera and do face detection or machine learning. You can also stream stock market data and act on it with real-time buy and sell actions. Have in mind that there could be a delay in data up to 1 second.
 - **Amazon QuickSight**
@@ -102,17 +102,29 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Security, Identity, and Compliance:
 - **AWS Artifact**
+  - AWS Artifact Provides on-demand access to AWS security and compliance reports and agreements.
 - **AWS Certificate Manager (ACM)**
+  - AWS ACM let you create, manage and deploy public or private certificates like SSL/TLS
 - **AWS CloudHSM**
+  - It allows to Manage hardware security module (HSM) for aplications running on EC2.
 - **Amazon Cognito**
+  - Cognito is a serverless service that provides control access to your Apps. You can create roles and map them to users, offloading user autentication and login from you. It can save user's data loaclly on devices to keep working when devices are offline. It can extend this users permissions to AWS services like AWS API Gateway.
 - **Amazon Detective**
+  - Amazon Dtective allows you to visualize security data to rapidly get root cause of potential security issues. It automatically collects data logs from your AWS resources (like VPC Flow Logs, AWS CloudTrail, AWS GuardDuty), and uses machine learning, statistical analysis and graph theory to build a linked set of data to enable you to faster and eficiently do security investigation.
 - **Amazon GuardDuty**
+  - AWS GuardDuty helps you protects AWS accounts, by stoping unauthorized activity, continuasly monitoring the account and workloads for malicious actions, delivering security findings.
 - **AWS Identity and Access Management (IAM)**
+  - AWS IAM provides very granual access controll to all AWS account, you can specify what users can access witch services and what operations are allowed or denied. You can also create roles that can be aplied to enteties (services, instances or users, both internal or externals).
 - **Amazon Inspector**
+  - Enables EC2 and ECR automated vunerability scans in order to identify security flaws. It also reveale unintend network exposures.
 - **AWS License Manager**
+  - It let's to easly manage licences from multiple vendores like Microsoft, SAP, Oracle and IBM, for software on AWS or on-premises.
 - **Amazon Macie**
+  - AWS Macie allows you to do data security and privacy check on AWS S3. It uses machine learning and pattern matching to discover and protect sensitive data like ID cards that are exposed inadvertently to the world. It also look for unfamiliar IP activity or downloads of large amount of sensitive data.
 - **AWS Shield**
+  - AWS Shield is a managed DDoS (Distributed Denial of Service) protection service to protect your applications runing on AWS.
 - **AWS WAF**
+  - AWS WAF (Web Application Firewall) helps you protect Web Applications or APIs against common web exploits and bots granting better availability.
 
 ## Storage:
 - **AWS Backup**
