@@ -88,23 +88,37 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 - **Amazon CloudWatch**
   - Allows to collect logs, correlate them, query, set alarms or trigger automations. It is possible to use it for AWS resources or for on-premises applications and infraestrucutre.
 - **AWS Config**
-  - 
+  - AWS Config let you manage configurations, and keep a record of past configurations. It's usefull to manage large infraestructure with multiple fleets of machines and services that share some codebase with different configurations. Ex.: a big eCommerce like Amazon with multiple configs for .com, .uk, .es, .de, etc..
 - **AWS Cost and Usage Report**
+  - It allows you to track AWS usage and do estimated charges for the account. You can drill down by service, tags, usage type, etc, understanding where are you spending money and how much.
 - **Amazon EventBridge (Amazon CloudWatch Events)**
+  - AWS EventBridge is a serverless event bus service. You can use it to generate time sensative events (Cron jobs) or create events with complex rules based on CloudWatch values or metrics.
 - **AWS License Manager**
+  - It let's to easly manage licences from multiple vendores like Microsoft, SAP, Oracle and IBM, for software on AWS or on-premises.
 - **AWS Managed Services**
+  - AWS Managed Services (MSP) is a program that validates AWS Partners with a proved track record and experience, and allows them to provide services to customers, like planning, designing, building or migrating to the cloud. It acellerates your cloud adoptions or allows you to outsource some of the monitoring/intervention on your cloud infraestructure.
 - **AWS Organizations**
+  - It let's you consolidate multiple AWS accounts into an organization, letting you do consolidated billing or apply rules to all your AWS accounts.
 - **AWS Secrets Manager**
+  - It allows you to easily rotate, manage and retrive credentials for Databases, APIs or other services. It helps you protect access to your applicatiosn or services by using a secrets management service.
 - **AWS Systems Manager**
+  - It allows you to view and manage infraestructure on AWS. It also allows you to automate operational taks on AWS resources.
 - **AWS Systems Manager Parameter Store**
+  - It allows yo automate common and repetitive IT operations and management tasks, by storing configuration data and secrets in a secure and hierarchical way. You can store passwords, database strings, license codes, and AMI (Amazon Machine Image).
 - **AWS Trusted Advisor**
+  - Provides recomendations that help you follow AWS best practices. Evaluate your account using checks to help you create an optimized AWS infraestructure, secure, performant and with reduced costs.
 
 ## Networking and Content Delivery:
 - **Amazon API Gateway**
+  - Fully managed service to help you develop, publish and monitor APIs at scale. It's the front door for applications to access data or business logic and a way to connect lambda functions to the outside world.
 - **Amazon CloudFront**
+  - AWS CDN that help you scale applications by levereging caching mecanisms on the edge, near yous costumers. It helps you provide more service with less costs.
 - **AWS Direct Connect**
+  - It's an alternative to the internet in order to connect your on-premises infraestructure to AWS, giving big bandwidth with low lattency between 2 infraestructures.
 - **Amazon Route 53**
+  - AWS DNS service, to manage domain resolutions. It's AWS Nameserver that you can use to manage domains.
 - **Amazon VPC**
+  - AWS Virtual Private Cloud (VPC) is a way of virtually isolate your resources inside AWS avoiding comunication with other services, other accounts of your own or other AWS clients. It let you manage IPs ranges and how they interconnect with each other like your own private Cloud.
 
 ## Security, Identity, and Compliance:
 - **AWS Artifact**
