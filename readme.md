@@ -78,11 +78,17 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 ## Management, Monitoring, and Governance:
 - **AWS Auto Scaling**
+  - Allows you to define scaling plans that automate how groups of resources respond to changes. You can use them to optimize availability while keeping the lowest possible cost.
 - **AWS Budgets**
+  - It allows you to monitor AWS spend and be alerted whe you exceed or are forecasted to exceed limits defined by you. You can also set allerts for when your metrics go below a define threshold, specially interesting if you buy reserved services.
 - **AWS CloudFormation**
+  - AWS own Infraestrucutre as Code (IaC) allows you to create JSON recepies and use them to create resources, update or destroy them. It's also possible to use them for 3rd party resources.
 - **AWS CloudTrail**
+  - CloudTrail helps governance, compliance and operational risk auditing, by logging 90 days of user / services activities either allowed or denied, and you can set alerts on top of it with CloudWatch or save this logs to S3.
 - **Amazon CloudWatch**
+  - Allows to collect logs, correlate them, query, set alarms or trigger automations. It is possible to use it for AWS resources or for on-premises applications and infraestrucutre.
 - **AWS Config**
+  - 
 - **AWS Cost and Usage Report**
 - **Amazon EventBridge (Amazon CloudWatch Events)**
 - **AWS License Manager**
