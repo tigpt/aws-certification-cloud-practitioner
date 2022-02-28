@@ -1,14 +1,15 @@
 # AWS Certification Cloud Practitioner
 
-AWS Certification Cloud Practitioner is a very macro level overview of AWS services.
+[AWS Certification Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) is a very macro-level overview of AWS services.
 
-It is for sure the esiest exame because it doesn't go deep into subjects, but it actualy is challenging if you are aming to nail it and not just go for the 70% to get the badge.
+I've taken it as a learning process because even being familiar with specific AWS services from my work experience, there are so many AWS services and features that I don't know.
 
-Because of that I've compiled a list of the services that are covered.
-Some of this descriptions where sourced from AWS Glossary, but some have a personal touch, so take them with a graint of salt, and do your own research.
+It is for sure the easiest AWS Certification because it doesn't go deep into subjects, but it is challenging if you are aiming to nail it and not just go for the 70% to get the badge.
 
-For sure in only 65 questions not every service will show up, but AWS say in the Exame Guide that all this services and features are covered, so probably it's a good idea of having a minimal understanding of each one of them.
+To study for it, I've compiled a list of the services that are covered.
+Some of these descriptions were sourced from AWS Glossary, but some have a personal touch, so take them with a grain of salt, and do your research.
 
+For sure in only 65 questions, not every service will show up, but AWS says in the Exam Guide that all these services and features are a possibility of being covered, so probably it's a good idea of having a minimal understanding of each one of them.
 
 #### There are 64 Services / Features to review, so grab your coffee and let's start!
 
@@ -164,4 +165,4 @@ For sure in only 65 questions not every service will show up, but AWS say in the
 
 
 # Conclusions
-I found it usefull to overbiew a vast amount of AWS services and features. For sure some of them I have never used and now I know they exist and more or less what value they add, in case I need to research further to check if they are a viable option for the project in hands.
+I found it useful to overview a vast amount of AWS services and features. For sure some of them I have never used and now I know they exist and more or less what value they add, in case I need to research further to check if they are a viable option for the project in hand.
